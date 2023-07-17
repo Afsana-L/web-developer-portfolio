@@ -130,3 +130,19 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.what-i-do-description{
+    padding: 30px 150px;
+}
+
+/* Skill Section Styles*/
+
+.skills-container{
+    padding: ;
+
+}
+
+.skill{
+    display: flex;
+    justify-content: space-around;
+}
