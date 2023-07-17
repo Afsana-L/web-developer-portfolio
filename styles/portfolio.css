@@ -29,8 +29,14 @@ nav {
 
 }
 
+/* header related styles*/
+.header {
+    background-color: #FFF8F3;
+}
+
 .text-primary {
     color: #FD6E0A;
+    align-content: right;
 }
 
 nav>ul {
@@ -41,10 +47,22 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner.profile-picture {
+    width: 500px;
+    height: 676px;
+    flex-shrink: 0;
 }
