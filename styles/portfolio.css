@@ -162,9 +162,56 @@ main section {
 
 /* Resume Section Styles*/
 
+.resume-title {
+    text-align: center;
+    font-size: x-large;
+}
+
 .resume-column-title {
     color: #474747;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 25px;
+}
+
+.resume-item-title {
+
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.resume-inst {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-container-hr{
+    margin: 30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
